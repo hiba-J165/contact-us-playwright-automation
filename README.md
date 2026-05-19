@@ -45,3 +45,29 @@ Part-2-Playwright-Automation/
 ├── package.json
 ├── package-lock.json
 └── .gitignore
+
+
+## Requirements
+
+Before running the project, install:
+
+1. Node.js
+2. npm
+3. Google Chrome
+
+
+##To Run 
+
+1. Clone the repository
+
+2. Install dependencies 
+	npm install
+
+3.Install playwright browser
+	npx playwright install
+
+4. Install chrome for platwright
+	npx playwright install chrome
+
+5. Run in the vs code terminal
+	npx playwright test --headed
