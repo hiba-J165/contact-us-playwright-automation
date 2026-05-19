@@ -32,7 +32,6 @@ The automation script covers the following behavior:
 7. Verifies that the visible fields contain entered values.
 8. Ends the test successfully and generates a Playwright test report.
 
-
 ## Project Structure
 
 ```txt
@@ -45,7 +44,7 @@ Part-2-Playwright-Automation/
 ├── package.json
 ├── package-lock.json
 └── .gitignore
-
+```
 
 ## Requirements
 
@@ -55,19 +54,30 @@ Before running the project, install:
 2. npm
 3. Google Chrome
 
-
-##To Run 
+## To Run
 
 1. Clone the repository
 
-2. Install dependencies 
-	npm install
+2. Install dependencies
 
-3.Install playwright browser
-	npx playwright install
+```bash
+npm install
+```
 
-4. Install chrome for platwright
-	npx playwright install chrome
+3. Install Playwright browser
 
-5. Run in the vs code terminal
-	npx playwright test --headed
+```bash
+npx playwright install
+```
+
+4. Install Chrome for Playwright
+
+```bash
+npx playwright install chrome
+```
+
+5. Run in the VS Code terminal
+
+```bash
+npx playwright test --headed
+```
